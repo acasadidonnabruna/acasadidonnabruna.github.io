@@ -9,7 +9,7 @@ const AIRBNB_LISTING_URL = "https://www.airbnb.it/rooms/24334371?source_impressi
 const AIRBNB_ICAL_URL = "https://www.airbnb.it/calendar/ical/24334371.ics?t=dea8c9b267fa4af8999e1654bc0231a6";
 
 // 3) Link Google Maps (facoltativo)
-const GOOGLE_MAPS_URL = "https://maps.google.com/?q=San+Vito+Taranto";
+const GOOGLE_MAPS_URL = "https://www.google.com/maps/place/A+Casa+Di+Donna+Bruna/@40.4166551,17.222946,17z/data=!3m1!4b1!4m6!3m5!1s0x13471d0f116f87e5:0x8e1d2d335a7a1483!8m2!3d40.4166551!4d17.222946!16s%2Fg%2F11vxqtxxj7?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D";
 
 // ===============================
 
