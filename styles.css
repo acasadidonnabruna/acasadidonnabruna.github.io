@@ -297,3 +297,18 @@ h2{ margin:0 0 10px; font-size:1.65rem; letter-spacing:-.2px; }
   .hero.hero-cover{ min-height:380px; }
   .hero-cover-content{ padding:22px 0; }
 }
+
+/* =====================
+   CIN
+===================== */
+.cin{
+  margin-top:12px;
+  text-align:center;
+  font-size:0.95rem;
+  color:var(--muted);
+  letter-spacing:0.5px;
+}
+.cin strong{
+  color:var(--text);
+  font-weight:700;
+}
