@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Casa Vacanza – Prenota su Airbnb</title>
-  <meta name="description" content="Pagina ufficiale della casa vacanza. Verifica disponibilità e prenota su Airbnb." />
+  <title>A Casa di Donna Bruna – San Vito (Taranto)</title>
+  <meta name="description" content="A Casa di Donna Bruna a San Vito (Taranto). Verifica disponibilità e prenota in modo sicuro su Airbnb." />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="header">
     <div class="container header-inner">
@@ -14,82 +15,49 @@
         <div class="brand-title">A Casa di Donna Bruna</div>
         <div class="brand-subtitle">San Vito (Taranto)</div>
       </div>
+
       <nav class="nav">
-        <a href="#foto">Foto</a>
         <a href="#servizi">Servizi</a>
         <a href="#disponibilita">Disponibilità</a>
+        <a href="#posizione">Posizione</a>
         <a href="#contatti">Contatti</a>
       </nav>
-      <a class="btn btn-primary" id="airbnbCtaTop" href="#" target="_blank" rel="noopener">Prenota su Airbnb</a>
+
+      <a class="btn btn-primary" id="airbnbCtaTop" href="#" target="_blank" rel="noopener">
+        Prenota su Airbnb
+      </a>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>A Casa di Donna Bruna</h1>
-          <p>
-           Accogliente casa vacanza a San Vito (Taranto), ideale per coppie e famiglie.
-  Verifica disponibilità e prenota in modo sicuro su Airbnb.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" id="airbnbCtaHero" href="#" target="_blank" rel="noopener">Prenota su Airbnb</a>
-            <a class="btn btn-secondary" href="#disponibilita">Vedi disponibilità</a>
-          </div>
-          <ul class="badges">
-            <li>Self check-in</li>
-            <li>Aria condizionata</li>
-            <li>Wi-Fi</li>
-            <li>Parcheggio</li>
-          </ul>
+    <!-- HERO COVER -->
+    <section class="hero hero-cover" id="top">
+      <div class="hero-cover-bg" style="background-image: url('img/cover.jpg');"></div>
+
+      <div class="container hero-cover-content">
+        <h1>A Casa di Donna Bruna</h1>
+
+        <p>
+          Accogliente casa vacanza a San Vito (Taranto), ideale per coppie e famiglie.
+          Verifica disponibilità e prenota in modo sicuro su Airbnb.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" id="airbnbCtaHero" href="#" target="_blank" rel="noopener">Prenota su Airbnb</a>
+          <a class="btn btn-secondary" href="#disponibilita">Vedi disponibilità</a>
         </div>
 
-        <div class="hero-card">
-          <div class="hero-img" aria-label="Foto della struttura">
-            <div class="hero-img-placeholder">Inserisci qui una tua foto (vedi istruzioni sotto)</div>
-          </div>
-          <div class="hero-card-body">
-            <div class="mini">
-              <div class="mini-title">In evidenza</div>
-              <div class="mini-text">Ottimo per coppie e famiglie, vicino ai servizi.</div>
-            </div>
-            <div class="mini">
-              <div class="mini-title">Check-in / Check-out</div>
-              <div class="mini-text">Orari flessibili su richiesta (da confermare su Airbnb).</div>
-            </div>
-          </div>
-        </div>
+        <ul class="badges">
+          <li>Self check-in</li>
+          <li>Aria condizionata</li>
+          <li>Wi-Fi</li>
+          <li>Parcheggio</li>
+        </ul>
       </div>
     </section>
 
-    <section id="foto" class="section">
-      <div class="container">
-        <h2>Foto</h2>
-        <p class="muted">Sostituisci le immagini con le tue (istruzioni più sotto).</p>
-
-        <div class="gallery">
-          <figure class="ph">
-            <div class="ph-box">Foto 1</div>
-            <figcaption>Zona giorno</figcaption>
-          </figure>
-          <figure class="ph">
-            <div class="ph-box">Foto 2</div>
-            <figcaption>Camera</figcaption>
-          </figure>
-          <figure class="ph">
-            <div class="ph-box">Foto 3</div>
-            <figcaption>Cucina</figcaption>
-          </figure>
-          <figure class="ph">
-            <div class="ph-box">Foto 4</div>
-            <figcaption>Esterni</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section id="servizi" class="section alt">
+    <!-- SERVIZI -->
+    <section id="servizi" class="section">
       <div class="container">
         <h2>Servizi</h2>
         <div class="grid">
@@ -102,19 +70,21 @@
               <li>Biancheria e asciugamani</li>
             </ul>
           </div>
+
           <div class="card">
-            <h3>Posizione</h3>
+            <h3>Per chi è adatta</h3>
             <ul>
-              <li>Vicino al mare</li>
-              <li>Comodo ai servizi</li>
-              <li>Area tranquilla</li>
+              <li>Coppie</li>
+              <li>Famiglie</li>
+              <li>Soggiorni brevi e medi</li>
             </ul>
           </div>
+
           <div class="card">
             <h3>Note</h3>
             <ul>
               <li>Regole della casa come da annuncio Airbnb</li>
-              <li>Politiche cancellazione come da Airbnb</li>
+              <li>Politiche di cancellazione come da Airbnb</li>
               <li>Prezzi e disponibilità sempre su Airbnb</li>
             </ul>
           </div>
@@ -122,7 +92,8 @@
       </div>
     </section>
 
-    <section id="disponibilita" class="section">
+    <!-- DISPONIBILITA -->
+    <section id="disponibilita" class="section alt">
       <div class="container">
         <h2>Disponibilità</h2>
         <p class="muted">
@@ -152,27 +123,33 @@
         </div>
       </div>
     </section>
-<section id="posizione" class="section">
-  <div class="container">
-    <h2>Posizione</h2>
-    <p class="muted">
-     Via Temolo 2, San Vito (Taranto)
-    </p>
 
-    <div class="card" style="padding:0; overflow:hidden;">
-      <iframe
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.647683819793!2d17.220371076264907!3d40.41665507143959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13471d0f116f87e5%3A0x8e1d2d335a7a1483!2sA%20Casa%20Di%20Donna%20Bruna!5e0!3m2!1sen!2sit!4v1768909140920!5m2!1sen!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </iframe>
-    </div>
+    <!-- POSIZIONE -->
+    <section id="posizione" class="section">
+      <div class="container">
+        <h2>Posizione</h2>
+        <p class="muted">Via Temolo 2, San Vito (Taranto)</p>
 
-    <div style="margin-top:12px;">
-      <a class="btn btn-secondary" id="mapsLink" href="#" target="_blank" rel="noopener">
-        Apri su Google Maps
-      </a>
-    </div>
-  </div>
-</section>
+        <div class="card" style="padding:0; overflow:hidden;">
+          <!-- Incolla qui l'iframe di Google Maps (embed) -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.647683819793!2d17.220371076264907!3d40.41665507143959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13471d0f116f87e5%3A0x8e1d2d335a7a1483!2sA%20Casa%20Di%20Donna%20Bruna!5e0!3m2!1sen!2sit!4v1768909140920!5m2!1sen!2sit"
+            width="100%"
+            height="360"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
 
+        <div style="margin-top:12px;">
+          <a class="btn btn-secondary" id="mapsLink" href="#" target="_blank" rel="noopener">Apri su Google Maps</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATTI -->
     <section id="contatti" class="section alt">
       <div class="container">
         <h2>Contatti</h2>
@@ -181,15 +158,17 @@
             <h3>Link utili</h3>
             <ul>
               <li><a id="airbnbLinkInline" href="#" target="_blank" rel="noopener">Annuncio su Airbnb</a></li>
-              <li><a id="mapsLink" href="#" target="_blank" rel="noopener">Apri su Google Maps</a></li>
+              <li><a id="mapsLink2" href="#" target="_blank" rel="noopener">Apri su Google Maps</a></li>
             </ul>
           </div>
+
           <div class="card">
             <h3>Messaggi</h3>
             <p class="muted">
               Per domande o richieste, contattami direttamente tramite Airbnb (canale ufficiale per prenotazioni e comunicazioni).
             </p>
           </div>
+
           <div class="card">
             <h3>Trasparenza</h3>
             <p class="muted small">
@@ -203,11 +182,12 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <span class="muted small">© <span id="year"></span> La tua Casa Vacanza</span>
-      <span class="muted small">Hosting gratuito su GitHub Pages</span>
+      <span class="muted small">© <span id="year"></span> A Casa di Donna Bruna</span>
+      <span class="muted small">Prenotazioni gestite su Airbnb</span>
     </div>
   </footer>
 
   <script src="app.js"></script>
 </body>
 </html>
+
