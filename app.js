@@ -3,7 +3,7 @@
 // ===============================
 
 // 1) Link annuncio Airbnb (prenotazione)
-const AIRBNB_LISTING_URL = "https://www.airbnb.com/rooms/INSERISCI_IL_TUO_ID";
+const AIRBNB_LISTING_URL = "https://www.airbnb.it/rooms/24334371?source_impression_id=p3_1768905098_P3lBJiEU7UDi2rDl";
 
 // 2) Link iCal esportato da Airbnb (finisce in .ics)
 const AIRBNB_ICAL_URL = "https://www.airbnb.com/calendar/ical/INSERISCI_IL_TUO_CALENDARIO.ics";
