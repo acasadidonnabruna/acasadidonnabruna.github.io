@@ -1,5 +1,5 @@
 // ===============================
-// CONFIG: incolla qui i tuoi link
+// CONFIG: https://www.airbnb.it/rooms/24334371?source_impression_id=p3_1768905098_P3lBJiEU7UDi2rDl
 // ===============================
 
 // 1) Link annuncio Airbnb (prenotazione)
