@@ -47,6 +47,9 @@ a { color: inherit; }
 .nav a { text-decoration: none; color: var(--muted); font-size: 0.95rem; }
 .nav a:hover { color: var(--text); }
 
+/* =====================
+   BOTTONI (final)
+===================== */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -57,39 +60,58 @@ a { color: inherit; }
   border-radius: 999px;
 
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 650;
   letter-spacing: 0.2px;
 
   text-decoration: none;
   cursor: pointer;
 
   border: 1px solid transparent;
-  transition: all 0.18s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, border-color 0.18s ease;
 }
 
-/* Bottone principale – Prenota */
-.header .btn-primary {
+/* CTA principale */
+.btn-primary {
   background: linear-gradient(135deg, #111827, #1f2937);
   color: #ffffff;
-  border-color: transparent;
-  box-shadow: 0 6px 14px rgba(17, 24, 39, 0.25);
+  box-shadow: 0 10px 22px rgba(17, 24, 39, 0.16);
 }
 
-.header .btn-primary:hover {
+.btn-primary:hover {
+  transform: translateY(-1px);
   background: linear-gradient(135deg, #0b1220, #111827);
+  box-shadow: 0 14px 28px rgba(17, 24, 39, 0.20);
 }
 
 .btn-primary:active {
   transform: translateY(0);
-  box-shadow: 0 8px 16px rgba(17, 24, 39, 0.18);
+  box-shadow: 0 8px 16px rgba(17, 24, 39, 0.16);
 }
 
-/* Bottone secondario */
+/* Secondario (outline premium) */
 .btn-secondary {
   background: #ffffff;
   color: #111827;
-  border: 1px solid rgba(17, 24, 39, 0.15);
+  border: 1px solid rgba(17, 24, 39, 0.18);
+  box-shadow: 0 6px 14px rgba(17, 24, 39, 0.06);
 }
+
+.btn-secondary:hover {
+  background: #f3f4f6;
+  border-color: rgba(17, 24, 39, 0.28);
+  transform: translateY(-1px);
+}
+
+/* CTA nell'header (piu' compatta e contrastata) */
+.header .btn {
+  padding: 10px 16px;
+  font-size: 0.98rem;
+}
+
+.header .btn-primary {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
 
 .btn-secondary:hover {
   background: #f3f4f6;
