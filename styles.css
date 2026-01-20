@@ -68,15 +68,14 @@ a { color: inherit; }
 }
 
 /* Bottone principale – Prenota */
-.btn-primary {
+.header .btn-primary {
   background: linear-gradient(135deg, #111827, #1f2937);
   color: #ffffff;
-  box-shadow: 0 10px 20px rgba(17, 24, 39, 0.18);
+  border-color: transparent;
+  box-shadow: 0 6px 14px rgba(17, 24, 39, 0.25);
 }
 
-.btn-primary:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 14px 28px rgba(17, 24, 39, 0.22);
+.header .btn-primary:hover {
   background: linear-gradient(135deg, #0b1220, #111827);
 }
 
