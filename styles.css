@@ -1,11 +1,11 @@
-:root {
-  --bg: #0b0c10;
-  --panel: #12141a;
-  --panel2: #0f1116;
-  --text: #e9ecf1;
-  --muted: #a7b0bf;
-  --border: rgba(255,255,255,0.10);
-  --shadow: 0 10px 30px rgba(0,0,0,0.35);
+:root{
+  --bg: #f6f7fb;
+  --panel: #ffffff;
+  --panel2: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: rgba(17,24,39,0.12);
+  --shadow: 0 10px 30px rgba(17,24,39,0.08);
   --radius: 16px;
 }
 
