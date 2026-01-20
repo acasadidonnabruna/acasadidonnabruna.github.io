@@ -6,7 +6,7 @@
 const AIRBNB_LISTING_URL = "https://www.airbnb.it/rooms/24334371?source_impression_id=p3_1768905098_P3lBJiEU7UDi2rDl";
 
 // 2) Link iCal esportato da Airbnb (finisce in .ics)
-const AIRBNB_ICAL_URL = "https://www.airbnb.com/calendar/ical/INSERISCI_IL_TUO_CALENDARIO.ics";
+const AIRBNB_ICAL_URL = "https://www.airbnb.it/calendar/ical/24334371.ics?t=dea8c9b267fa4af8999e1654bc0231a6";
 
 // 3) Link Google Maps (facoltativo)
 const GOOGLE_MAPS_URL = "https://maps.google.com/?q=San+Vito+Taranto";
